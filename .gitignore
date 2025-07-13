@@ -4,4 +4,4 @@ __pycache__
 data/__pycache__
 data/archive
 data/archive.zip
-DS_Stores
+.DS_Store
