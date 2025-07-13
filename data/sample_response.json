@@ -1,0 +1,181 @@
+{
+  "user_id": "user_0",
+  "is_eligible": false,
+  "income_required": 3000,
+  "min_score_required": 700,
+  "loan_approval_probability": 0.1,
+  "eligibility_gap_reasons": [
+    "High DTI",
+    "Low income compared to loan amount"
+  ],
+  "risk_flags": [
+    "High DTI",
+    "Recent credit inquiry",
+    "Multiple open loans"
+  ],
+  "analytics": {
+    "dti_percentage": 621.92,
+    "credit_score_now": 712,
+    "credit_score_forecast": {
+      "2025-08": 710,
+      "2025-09": 715,
+      "2025-10": 720,
+      "2025-11": 725,
+      "2025-12": 730,
+      "2026-01": 735,
+      "2026-02": 740,
+      "2026-03": 745,
+      "2026-04": 750,
+      "2026-05": 755,
+      "2026-06": 760,
+      "2026-07": 765
+    },
+    "expected_emi": 1865.77,
+    "loan_term_months": 240,
+    "interest_rate_used": 6.5,
+    "inflation_rate_applied": 3.1
+  },
+  "score_factors_weights": {
+    "payment_history": 35,
+    "credit_utilization": 30,
+    "credit_age": 15,
+    "inquiries": 10,
+    "credit_mix": 10
+  },
+  "roadmap": [
+    {
+      "month": "Nov 2023",
+      "action": "Set up a budget to ensure timely payments on all loans",
+      "impact": "Avoids further defaults and late payments"
+    },
+    {
+      "month": "Dec 2023",
+      "action": "Negotiate a payment plan with Barclays for the defaulted loan",
+      "impact": "Reduces the negative impact of the default"
+    },
+    {
+      "month": "Jan 2024",
+      "action": "Increase monthly income through a part-time job or side gig",
+      "impact": "Improves debt-to-income ratio"
+    },
+    {
+      "month": "Feb 2024",
+      "action": "Make an extra payment towards the late loan",
+      "impact": "Reduces outstanding debt and improves payment history"
+    },
+    {
+      "month": "Mar 2024",
+      "action": "Continue making timely payments on all loans",
+      "impact": "Maintains a positive payment history"
+    },
+    {
+      "month": "Apr 2024",
+      "action": "Review and dispute any inaccuracies on the credit report",
+      "impact": "Removes potential negative items from the report"
+    },
+    {
+      "month": "May 2024",
+      "action": "Increase savings to build an emergency fund",
+      "impact": "Provides financial stability and reduces reliance on credit"
+    },
+    {
+      "month": "Jun 2024",
+      "action": "Pay off any small outstanding debts",
+      "impact": "Improves credit utilization and reduces overall debt"
+    },
+    {
+      "month": "Jul 2024",
+      "action": "Continue to make timely payments and monitor credit score",
+      "impact": "Maintains positive credit behavior"
+    },
+    {
+      "month": "Aug 2024",
+      "action": "Consider consolidating loans to reduce interest rates",
+      "impact": "Lowers monthly payments and improves cash flow"
+    },
+    {
+      "month": "Sep 2024",
+      "action": "Review financial goals and adjust budget accordingly",
+      "impact": "Ensures continued financial health and creditworthiness"
+    },
+    {
+      "month": "Oct 2024",
+      "action": "Reassess credit needs and apply for new credit if necessary",
+      "impact": "Demonstrates responsible credit management"
+    }
+  ],
+  "recommendation_priority": [
+    "Pay down revolving credit to under 30%",
+    "Maintain on-time payments for next 6 months",
+    "Avoid applying for any new loans"
+  ],
+  "ai_recommendations": [
+    "Negotiate a payment plan with Barclays to address the defaulted loan",
+    "Make consistent, on-time payments for the late loan to improve payment history",
+    "Increase monthly income through additional work or side jobs to improve debt-to-income ratio",
+    "Avoid taking on new debt until existing loans are managed effectively",
+    "Consider credit counseling services to develop a personalized debt management plan"
+  ],
+  "top_bank_matches": [
+    {
+      "bank_name": "Barclays",
+      "min_score_required": 730,
+      "interest_rate": 5.6,
+      "max_ltv": 80,
+      "estimated_approval_chance": "Medium"
+    },
+    {
+      "bank_name": "HSBC",
+      "min_score_required": 700,
+      "interest_rate": 5.4,
+      "max_ltv": 85,
+      "estimated_approval_chance": "High"
+    },
+    {
+      "bank_name": "Lloyds Bank",
+      "min_score_required": 720,
+      "interest_rate": 5.5,
+      "max_ltv": 80,
+      "estimated_approval_chance": "Medium"
+    },
+    {
+      "bank_name": "NatWest",
+      "min_score_required": 710,
+      "interest_rate": 5.7,
+      "max_ltv": 75,
+      "estimated_approval_chance": "Medium"
+    },
+    {
+      "bank_name": "Santander",
+      "min_score_required": 725,
+      "interest_rate": 5.8,
+      "max_ltv": 80,
+      "estimated_approval_chance": "Medium"
+    }
+  ],
+  "cluster_insights": {
+    "cluster_id": "C1",
+    "avg_score": 726.05,
+    "avg_income": 9975.84,
+    "score_growth_rate": "stable",
+    "common_behaviors": [
+      "low credit utilization",
+      "pays on time"
+    ],
+    "typical_time_to_loan_approval": "3-6 months"
+  },
+  "inflation_forecast": {
+    "Aug 2025": 3.1,
+    "Sep 2025": 3.0,
+    "Oct 2025": 2.9,
+    "Nov 2025": 2.8,
+    "Dec 2025": 2.7,
+    "Jan 2026": 2.6,
+    "Feb 2026": 2.6,
+    "Mar 2026": 2.5,
+    "Apr 2026": 2.5,
+    "May 2026": 2.4,
+    "Jun 2026": 2.4,
+    "Jul 2026": 2.3
+  }
+}
